@@ -1,0 +1,61 @@
+@CHARSET "ISO-8859-1";
+body {background-color: #fff; color: #401e14; font-size: 18px; font-family: Arial;}
+.wrapper	{width: 800px; height: 600px; margin: 0 auto; position: relative; background: #eee;}
+.bd			{width: 800px; height: 600px; position: absolute; left: 0; top: 0;}
+.bd table td {vertical-align: top;}
+.bd p {margin-bottom: 1em;}
+.bd p span {color: #118492;}
+
+/*  commons
+---------------------------------*/
+.absolute {position: absolute;}
+.relative {position: relative;}
+.block {display: block;}
+.tcenter {text-align: center;}
+.tright {text-align: right;}
+.left {float: left;}
+.right {float: right;}
+.overflow {overflow: hidden;}
+.clear {clear: both;}
+/*------------------------------*/
+
+.form {}
+.form p{overflow: hidden; margin-bottom: 13px;}
+.form label{width: 200px; float: left; padding-left: 52px; height: 29px; line-height: 29px;}
+.form input{width: 464px; border: 0; background-color: #8f9296; height: 29px; color: #fff; font-size: 18px; padding: 0 12px;}
+
+ul.tabs {overflow: hidden;}
+ul.tabs li{float: left;}
+ul.tabs li a {background-repeat: no-repeat; background-position: top left; height: 70px; display: block;}
+ul.tabs li a.tab1 {background-image: url("../img/tab1.jpg"); width: 269px;}
+ul.tabs li a.tab2 {background-image: url("../img/tab2.jpg"); width: 269px;}
+ul.tabs li a.tab3 {background-image: url("../img/tab3.jpg"); width: 262px;}
+
+ul.tabs li.current a,
+ul.tabs li a:HOVER{ background-position: bottom left;}
+.ranking_wrapper {background-color: #108493; padding: 4px 0; border-radius: 4px; float: left;}
+.ranking tr th {color: #fff; font-size: 13px; padding: 11px 0; font-weight: bold; background-color: #108493; border: 4px solid #108493; border-bottom-width: 0; border-top-width: 0;}
+.ranking tr td {border: 1px solid #333333; background-color: #dadee2; text-align: center; padding: 7px 0; color: #444444;border-bottom-width: 0;}
+.ranking tr:FIRST-CHILD td {border-top-width: 0;}
+.ranking tr td.col1 {width: 75px; font-size: 13px; border-left: 4px solid #108493; font-weight: bold;}
+.ranking tr td.col2 {width: 275px; font-size: 12px; padding-left: 25px; text-align: left;}
+.ranking tr td.col3 {width: 90px; font-size: 13px; border-right: 4px solid #108493; font-weight: bold;}
+
+.opacue {position:absolute; top:0; left:0; height:800px; width:800px; background:url(../img/opacue.png) 0 0 repeat; z-index:50; display: none;}
+.opacue img { position:fixed; top:50%; left:50%; margin: -27px 0 0 -27px;}
+.pop_comojugar {width: 530px; left:50%; margin-left: -265px; margin-top:70px; background-color: #e7e7e7; position: absolute; z-index: 51; font-family: Verdana; font-size: 14px;}
+.pop_comojugar .inner{padding:35px 65px 30px 30px; line-height: 1.3em;}
+.pop_comojugar .close{position: absolute; top: 5px; right: 5px;}
+
+.pop_comojugar h1 {font-size: 39px; margin-bottom: 1em;}
+.pop_comojugar h2 {font-size: 24px; color: #118492; margin-bottom: 0.5em;}
+
+.amigos_section {background-color: #4693b0; overflow: hidden; position: relative;}
+.amigos_box {background-color: #4693b0; width: 680px; float: left; height: 105px;}
+.amigos_section .title {margin-left: 23px; width: 200px; float: left; color: #fff; text-decoration: underline; padding: 8px 0; }
+.amigos_table {margin-left: 23px;}
+.amigos_table td {padding-right: 15px;}
+.amigos_table td a {display: block; width: 50px; height: 50px; background-color: #000; overflow: hidden; border: 4px solid #fff;}
+.amigos_table td p {font-size: 12px; color: #000; line-height: 1.4em;}
+
+.ultimos_check_ins { position: absolute; background-color: #0088a8; right: 16px; top: 395px; width: 130px; padding-top: 15px;}
